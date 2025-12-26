@@ -1,4 +1,4 @@
-# 💸 App de Organização de Finanças Pessoais com Vibe Coding
+# 💸 App de Finanças Pessoais do Marco com Vibe Coding
 
 Aprenda a **criar soluções com IA** de forma criativa, guiando ferramentas como o **Copilot** e o **Lovable** com uma comunicação simples e natural. O foco é desenvolver o conceito de um **App de Organização de Finanças Pessoais**, mas, acima de tudo, aprender o **jeito Vibe de programar com IA**.
 
@@ -25,7 +25,7 @@ Antes de pedir para a IA "criar um app", é importante definir com clareza o que
 
 Um bom PRD deve descrever o problema, quem será beneficiado, as principais funcionalidades e o que você espera que a IA entregue. Use o modelo abaixo como ponto de partida e adapte conforme o seu estilo:
 
-```txt
+`
 # Contexto
 Quero criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas com o usuário.  
 A ideia é facilitar o controle financeiro de forma simples e natural, sem formulários manuais ou planilhas complexas.
@@ -72,7 +72,110 @@ Durante essa etapa, você pode orientar a IA para três entregas principais:
 
 Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
 No README do seu repositório, inclua:
+```
 
+
+PRD refinado no Copilot:
+
+# PRD – App de Finanças Pessoais Conversacional
+
+## 1. Contexto
+Criar um aplicativo de Organização de Finanças Pessoais que funcione por meio de conversas em linguagem natural.  
+O objetivo é simplificar o controle financeiro, eliminando formulários complexos e planilhas manuais, oferecendo uma experiência fluida e acessível.
+
+## 2. Problema
+Muitos usuários desistem de controlar seus gastos porque:
+- Os apps atuais exigem muita entrada manual.  
+- Há pouca personalização na experiência.  
+
+O app busca resolver isso com:
+- Interações conversacionais.  
+- Recomendações automáticas de economia.  
+- Design Universal, garantindo que o máximo de pessoas, com diferentes perfis e necessidades, possam usar o aplicativo com boa experiência.
+
+## 3. Público-Alvo
+- Pessoas que querem começar a organizar suas finanças de forma prática.  
+- Usuários iniciantes que se sentem sobrecarregados com ferramentas tradicionais.  
+- Pessoas com diferentes níveis de familiaridade tecnológica, garantindo acessibilidade ampla.  
+
+## 4. Funcionalidades-Chave
+1. Registrar gastos via chat em linguagem natural.  
+2. Classificar automaticamente as transações.  
+3. Definir e acompanhar metas financeiras.  
+4. Receber dicas de economia fornecidas pelo “Agente Financeiro”.  
+5. Visualizar relatórios simples e personalizados em formato visual e textual.  
+6. Design Universal: interface inclusiva, acessível e adaptável para diferentes públicos.  
+
+## 5. MVP – Entregável Inicial
+### Telas Principais
+- Chat Financeiro: registrar gastos e receber respostas do agente.  
+- Metas: definir objetivos e acompanhar progresso.  
+- Relatórios: gráficos simples e resumos semanais/mensais.  
+- Configurações: perfil, notificações e exportação de dados.  
+
+### Recursos Necessários
+- Processamento de Linguagem Natural (NLP).  
+- Motor de classificação automática.  
+- Banco de dados seguro (local + cloud).  
+- Módulo de relatórios.  
+- Lógica de recomendações do “Agente Financeiro”.  
+- Diretrizes de Design Universal: contraste adequado, navegação simples, suporte a diferentes dispositivos e acessibilidade.  
+
+### Validação Inicial
+- Teste com 20–30 usuários iniciantes e diversos perfis.  
+- Métricas: número de transações registradas, metas criadas, feedback qualitativo sobre clareza e acessibilidade.  
+- Hipótese: “Usuários iniciantes preferem registrar gastos por conversa e se sentem mais motivados com dicas automáticas, desde que a interface seja inclusiva e acessível.”  
+
+## 6. Entregável da IA
+Gerar um plano de MVP com as principais telas, recursos necessários e um esboço de validação inicial.  
+Usar tom educativo e linguagem acessível, em português.  
+
+## 7. Conceito Didático – Design Universal
+Design Universal é uma abordagem de design que busca criar produtos, serviços e ambientes que possam ser utilizados pelo maior número possível de pessoas, sem necessidade de adaptação ou soluções especiais.  
+
+Princípios básicos:
+- Uso equitativo: funciona bem para diferentes perfis de usuários.  
+- Flexibilidade: adapta-se a diferentes preferências e habilidades.  
+- Simplicidade: fácil de entender, independente da experiência prévia.  
+- Perceptível: informações apresentadas de forma clara e acessível (ex.: contraste, texto alternativo).  
+- Tolerância a erros: reduz riscos de uso incorreto.  
+- Baixo esforço físico/cognitivo: não exige muito esforço para interagir.  
+- Dimensão e espaço apropriados: interface adaptável a diferentes dispositivos e contextos.  
+
+Em resumo: Design Universal significa pensar desde o início em acessibilidade e inclusão, para que o produto seja útil e agradável para o maior número de pessoas, sem barreiras.
+
+===========================================
+
+Interações com o Lovable:
+
+> eu preciso do aplicativo onde as receitas, despesas e saldo, estejam sempre visíveis na tela. O chat deve ficar em uma aba abaixo,
+
+Resultado final Lovable:  https://financamarco.lovable.app/
+
+<img width="1468" height="715" alt="image" src="https://github.com/user-attachments/assets/2fac4c55-43a5-47a9-8554-b1435e52998d" />
+
+
+# Reflexão sobre o processo de criação do PRD com IA
+
+## O que funcionou bem
+- Estrutura inicial clara do PRD, facilitando a revisão.  
+- Iteração colaborativa: cada ajuste solicitado foi incorporado rapidamente.  
+- Linguagem acessível e educativa, alinhada ao objetivo de praticar vibe coding.  
+
+## O que não funcionou como o esperado
+- Alguns detalhes faltaram no início (ex.: Entregável da IA, Design Universal), exigindo rodadas adicionais.  
+- O formato de saída só foi definido depois (snippet txt/Markdown), o que poderia ter sido antecipado.  
+
+## O que aprendi sobre conversar com IAs
+- O processo é mais eficaz quando feito em etapas, como uma co-criação.  
+- Quanto mais contexto e clareza no pedido, melhor a resposta.  
+- A IA pode atuar como parceira criativa, ajudando a estruturar e explicar conceitos.  
+- Feedback direciona o resultado: ajustes específicos moldam a saída para atender exatamente à necessidade.  
+
+## Síntese
+Conversar com IAs é como **co-criar**: você traz a visão e o contexto, e a IA ajuda a estruturar, refinar e ensinar, em ciclos de interação que tornam o aprendizado mais rico e prático.
+
+=======================================================================
 - Seu **prompt final** (PRD);  
 - Prints ou pequenos vídeos das interações com a IA;  
 - Um resumo do que o seu **App de Finanças Pessoais** faz;  
